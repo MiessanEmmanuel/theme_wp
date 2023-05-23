@@ -52,7 +52,7 @@
                         { "slug": "g-primary", "color": "rgb(0 29 258)", "name": "Geek Primary" }
                     ],
                     "link": true,
-                    "custom": false,
+                    "custom": true,
                     "gradients": []
                     
                 },
@@ -62,6 +62,12 @@
                             "slug": "g-rubik",
                             "fontFamily": "Rubik, Sans-serif",
                             "name": "Geek Rubik"
+                        },
+                        {
+                            "slug": "g-pacifio",
+                            "fontFamily": "Pacifico, Sans-serif",
+                            "name": "Geek Pacifio"
+                            
                         }
                     ]
                     
@@ -115,6 +121,7 @@
             "padding": true,
             "customSpacingSize": true
         }
+        
             
     },
     "styles": {
@@ -144,9 +151,12 @@
                     "style": "dashed",
                     "radius":"30px"
                 }
+            },
+            "core/site-title": {
+
             }
            
-        },
+        },     
         "spacing": {
             "margin": {
                 "top": "0",
@@ -162,6 +172,10 @@
                 "right": "0"
 
             }
-        }   
+            
+        },
+        "typography": {
+            "letterSpacing": "initial"
+        }  
     }
 }
