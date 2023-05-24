@@ -112,7 +112,9 @@
                   {"slug": "gigantic", "size": "3.75rem", "name": "Gigantic "}
                   
                   
-            ]
+            ],
+            "lineHeight": true
+            
             
 
         },
@@ -132,6 +134,9 @@
             "link": {
                 "color": {
                     "text": "var(--wp--preset--color--g-brown-light)"
+                },
+                "typography": {
+                    "textDecoration": "none"
                 }
              }
             
